@@ -776,7 +776,7 @@
         "models": [
             "sonar"
         ],
-        "api_key": "PPLX_API_KEY",
+        "api_key": "PERPLEXITY_API_KEY",
         "openrouter_identifier": {
             "sonar": "perplexity/sonar"
         },
