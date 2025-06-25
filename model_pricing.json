@@ -842,34 +842,31 @@
                 "output": 9.5
             }
         },
-  "amazon-bedrock": {
-  "icon": "https://svgl.app/library/aws.svg",
-  "models": [
-    "anthropic.claude-3-haiku-20240307-v1:0"
-  ],
-  "api_key": [
-    "AWS_REGION",
-    "AWS_ACCESS_KEY_ID",
-    "AWS_SECRET_ACCESS_KEY"
-  ],
-  "openrouter_identifier": {
-    "anthropic.claude-3-haiku-20240307-v1:0": "amazon-bedrock/anthropic.claude-3-haiku-20240307-v1:0"
-  },
-  "price": {
-    "anthropic.claude-3-haiku-20240307-v1:0": {
-      "input": 1,
-      "output": 2
-    }
-  },
-  "name": {
-    "anthropic.claude-3-haiku-20240307-v1:0": "Claude 3 Haiku (Bedrock)"
-  },
-  "availableForChatApp": {
-    "anthropic.claude-3-haiku-20240307-v1:0": "Pro"
-  },
-  "descriptions": {
-    "anthropic.claude-3-haiku-20240307-v1:0": "Claude 3 Haiku via Amazon Bedrock (March 2024)"
-                  }
+        "amazon-bedrock": {
+              "icon": "https://svgl.app/library/aws.svg",
+              "models": [
+                "anthropic.claude-3-haiku-20240307-v1:0"
+              ],
+              "api_key": [
+                "AWS_REGION",
+                "AWS_ACCESS_KEY_ID",
+                "AWS_SECRET_ACCESS_KEY"
+              ],
+              "price": {
+                "anthropic.claude-3-haiku-20240307-v1:0": {
+                  "input": 1,
+                  "output": 2
+                }
+              },
+              "name": {
+                "anthropic.claude-3-haiku-20240307-v1:0": "Claude 3 Haiku (Bedrock)"
+              },
+              "availableForChatApp": {
+                "anthropic.claude-3-haiku-20240307-v1:0": "Pro"
+              },
+              "descriptions": {
+                "anthropic.claude-3-haiku-20240307-v1:0": "Claude 3 Haiku via Amazon Bedrock (March 2024)"
+              }
         }
     }
 }
