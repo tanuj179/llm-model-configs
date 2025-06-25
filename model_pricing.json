@@ -842,7 +842,7 @@
                 "output": 9.5
             }
         },
-        "amazon-bedrock": {
+        "amazon": {
               "type": "cloud",
               "icon": "https://svgl.app/library/aws.svg",
               "models": [
