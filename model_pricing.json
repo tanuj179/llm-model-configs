@@ -843,45 +843,44 @@
             }
         }
     },
-    "amazon-bedrock": {
-        "type": "cloud",
-        "icon": "https://svgl.app/library/aws.svg",
-        "models": [
-            "anthropic.claude-3-opus-20240229-v1:0",
-            "anthropic.claude-3-haiku-20240307-v1:0"
-        ],
-        "api_key": [
-            "AWS_REGION",
-            "AWS_ACCESS_KEY_ID",
-            "AWS_SECRET_ACCESS_KEY"
-        ],
-        "support_tools": [
-            "anthropic.claude-3-opus-20240229-v1:0",
-            "anthropic.claude-3-haiku-20240307-v1:0"
-        ],
-        "support_response_model": [
-            "anthropic.claude-3-opus-20240229-v1:0",
-            "anthropic.claude-3-haiku-20240307-v1:0"
-        ],
-        "openrouter_identifier": {
-            "anthropic.claude-3-opus-20240229-v1:0": "anthropic/claude-3-opus-20240229-v1:0",
-            "anthropic.claude-3-haiku-20240307-v1:0": "anthropic/claude-3-haiku-20240307-v1:0"
-        },
-        "price": {
-            "anthropic.claude-3-opus-20240229-v1:0": { "input": 5, "output": 10 },
-            "anthropic.claude-3-haiku-20240307-v1:0": { "input": 1, "output": 2 }
-        },
-        "name": {
-            "anthropic.claude-3-opus-20240229-v1:0": "Claude 3 Opus (Bedrock)",
-            "anthropic.claude-3-haiku-20240307-v1:0": "Claude 3 Haiku (Bedrock)"
-        },
-        "availableForChatApp": {
-            "anthropic.claude-3-opus-20240229-v1:0": "Pro",
-            "anthropic.claude-3-haiku-20240307-v1:0": "Pro"
-        },
-        "descriptions": {
-            "anthropic.claude-3-opus-20240229-v1:0": "Anthropic's Claude 3 Opus via Bedrock",
-            "anthropic.claude-3-haiku-20240307-v1:0": "Anthropic's Claude 3 Haiku via Bedrock"
-        }
-    }
+ "amazon-bedrock": {
+  "icon": "https://svgl.app/library/aws.svg",
+  "models": [
+    "amazon.nova-lite-v1:0",
+    "amazon.nova-pro-v1:0",
+    "anthropic.claude-4-sonnet-20250514-v1:0",
+    "anthropic.claude-4-opus-20250514-v1:0",
+    "anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "anthropic.claude-3-5-sonnet-20241022-v2:0",
+    "anthropic.claude-3-5-sonnet-20240620-v1:0",
+    "anthropic.claude-3-5-haiku-20241022-v1:0",
+    "anthropic.claude-3-opus-20240229-v1:0",
+    "anthropic.claude-3-sonnet-20240229-v1:0",
+    "anthropic.claude-3-haiku-20240307-v1:0",
+    "anthropic.claude-v2:1",
+    "cohere.command-r-v1:0",
+    "cohere.command-r-plus-v1:0",
+    "deepseek.r1-v1:0",
+    "meta.llama2-13b-chat-v1",
+    "meta.llama2-70b-chat-v1",
+    "meta.llama3-8b-instruct-v1:0",
+    "meta.llama3-70b-instruct-v1:0",
+    "meta.llama3-1-8b-instruct-v1:0",
+    "meta.llama3-1-70b-instruct-v1:0",
+    "meta.llama3-1-405b-instruct-v1:0",
+    "meta.llama3-2-1b-instruct-v1:0",
+    "meta.llama3-2-3b-instruct-v1:0",
+    "meta.llama3-2-11b-instruct-v1:0",
+    "meta.llama3-2-90b-instruct-v1:0",
+    "mistral.mistral-7b-instruct-v0:2",
+    "mistral.mixtral-8x7b-instruct-v0:1",
+    "mistral.mistral-large-2402-v1:0",
+    "mistral.mistral-small-2402-v1:0"
+  ],
+  "api_key": [
+    "AWS_REGION",
+    "AWS_ACCESS_KEY_ID",
+    "AWS_SECRET_ACCESS_KEY"
+  ]
+}
 }
