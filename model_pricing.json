@@ -843,6 +843,7 @@
             }
         },
        "bedrock": {
+          "type": "cloud",
           "icon": "https://svgl.app/library/aws.svg",
           "models": [
             "anthropic.claude-3-opus-20250514-v1:0"
