@@ -843,26 +843,26 @@
             }
         },
         "bedrock": {
-          "models": [
-            "anthropic.claude-v2:1"
-          ],
-          "api_key": [
-            "AWS_REGION",
-            "AWS_ACCESS_KEY_ID",
-            "AWS_SECRET_ACCESS_KEY"
-          ],
-          "price": {
-            "anthropic.claude-v2:1": { "input": 1, "output": 2 }
-          },
-          "name": {
-            "anthropic.claude-v2:1": "Claude 2.1 (Bedrock)"
-          },
-          "availableForChatApp": {
-            "anthropic.claude-v2:1": "Pro"
-          },
-          "descriptions": {
-            "anthropic.claude-v2:1": "Anthropic's Claude 2.1 via Bedrock"
-          }
+              "models": [
+                "anthropic.claude-3-opus-20250514-v1:0"
+              ],
+              "api_key": [
+                "AWS_REGION",
+                "AWS_ACCESS_KEY_ID",
+                "AWS_SECRET_ACCESS_KEY"
+              ],
+              "price": {
+                "anthropic.claude-3-opus-20250514-v1:0": { "input": 5, "output": 10 }
+              },
+              "name": {
+                "anthropic.claude-3-opus-20250514-v1:0": "Claude 4 Opus (Bedrock)"
+              },
+              "availableForChatApp": {
+                "anthropic.claude-3-opus-20250514-v1:0": "Pro"
+              },
+              "descriptions": {
+                "anthropic.claude-3-opus-20250514-v1:0": "Anthropic's Claude 4 Opus via Bedrock"
+              }
         }
     }
 }
