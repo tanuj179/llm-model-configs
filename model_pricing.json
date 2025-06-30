@@ -842,15 +842,19 @@
                 "output": 9.5
             }
         },
-      "bedrock": {
-          "models": [
+       "bedrock": {
+        "icon": "https://svgl.app/library/perplexity.svg",
+        "models": [
             "us.deepseek.r1-v1:0"
-          ],
-          "api_key": {
-            "aws_region": "YOUR_AWS_REGION",
-            "aws_access_key_id": "YOUR_AWS_ACCESS_KEY_ID",
-            "aws_secret_access_key": "YOUR_AWS_SECRET_ACCESS_KEY"
-          }
+        ],
+        "api_key": {
+            "AWS_REGION",
+            "AWS_ACCESS_KEY_ID",
+            "AWS_SECRET_ACCESS_KEY"
+        },
+        "openrouter_identifier": {
+            "us.deepseek.r1-v1:0": "bedrock/us.deepseek.r1-v1:0"
         }
+    }
     }
 }
