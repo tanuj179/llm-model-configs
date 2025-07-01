@@ -856,7 +856,7 @@
     "us.deepseek.r1-v1:0": "bedrock/us.deepseek.r1-v1:0"
     },
     "name": {
-        "us.deepseek.r1-v1:0": "Bedrock DeepSeek"
+        "us.deepseek.r1-v1:0": "Amazon Bedrock"
     }
 }
 }
