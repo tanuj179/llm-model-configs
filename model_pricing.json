@@ -852,7 +852,7 @@
         "aws_secret_access_key": "AWS_SECRET_ACCESS_KEY",
         "aws_region": "AWS_REGION"
     },
-    "openrouter_identifier": {
+    "amazon_identifier": {
     "us.deepseek.r1-v1:0": "bedrock/us.deepseek.r1-v1:0"
     },
     "name": {
