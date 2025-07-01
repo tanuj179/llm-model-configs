@@ -833,26 +833,27 @@
                 "input": 0.65,
                 "output": 2.75
             },
-            "meta-llama-3-8b-instruct": {
-                "input": 0.05,
-                "output": 0.25
-            },
-            "meta-llama-3.1-405b-instruct": {
-                "input": 9.5,
-                "output": 9.5
-            }
+        "meta-llama-3-8b-instruct": {
+            "input": 0.05,
+            "output": 0.25
         },
-    "bedrock": {
+        "meta-llama-3.1-405b-instruct": {
+            "input": 9.5,
+            "output": 9.5
+        }
+    }
+},
+"bedrock": {
     "models": [
-      "us.deepseek.r1-v1:0"
+        "us.deepseek.r1-v1:0"
     ],
     "api_keys": {
-      "aws_access_key_id": "AWS_ACCESS_KEY_ID",
-      "aws_secret_access_key": "AWS_SECRET_ACCESS_KEY",
-      "aws_region": "AWS_REGION"
+        "aws_access_key_id": "AWS_ACCESS_KEY_ID",
+        "aws_secret_access_key": "AWS_SECRET_ACCESS_KEY",
+        "aws_region": "AWS_REGION"
     },
     "name": {
-      "us.deepseek.r1-v1:0": "Bedrock DeepSeek"
+        "us.deepseek.r1-v1:0": "Bedrock DeepSeek"
     }
-  }
+}
 }
