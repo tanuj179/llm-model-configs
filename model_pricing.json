@@ -865,7 +865,7 @@
       "anthropic.claude-3-opus-20240229-v1:0"
     ],
     "support_response_model": ["anthropic.claude-3-5-sonnet-20241022-v2:0", "anthropic.claude-3-opus-20240229-v1:0"],
-    "amazon_identifier": {
+    "openrouter_identifier": {
       "us.deepseek.r1-v1:0": "bedrock/us.deepseek.r1-v1:0",
       "anthropic.claude-3-5-sonnet-20241022-v2:0": "bedrock/anthropic.claude-3-5-sonnet-20241022-v2:0",
       "anthropic.claude-3-5-haiku-20241022-v2:0": "bedrock/anthropic.claude-3-5-haiku-20241022-v2:0"
