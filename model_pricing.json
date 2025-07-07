@@ -15,7 +15,7 @@
             "gpt-4o-mini-2024-07-18",
             "gpt-4-turbo-preview",
             "gpt-4-0125-preview",
-            "gpt-4-1106-preview",
+            "gpt-4-1106-vision-preview",
             "gpt-4.1",
             "gpt-4.1-2025-04-14",
             "gpt-4.1-mini",
@@ -30,25 +30,48 @@
         ],
         "api_key": "OPENAI_API_KEY",
         "support_media_inputs": {
+            "gpt-4-turbo": [
+                "image"
+            ],
+            "gpt-4-turbo-2024-04-09": [
+                "image"
+            ],
+            "gpt-4.1": [
+                "image"
+            ],
+            "gpt-4.1-2025-04-14": [
+                "image"
+            ],
+            "gpt-4.1-mini": [
+                "image"
+            ],
+            "gpt-4.1-mini-2025-04-14": [
+                "image"
+            ],
             "gpt-4o": [
                 "image",
-                "pdf"
+                "pdf",
+                "search"
             ],
             "gpt-4o-2024-05-13": [
                 "image",
-                "pdf"
+                "pdf",
+                "search"
             ],
             "gpt-4o-2024-08-06": [
                 "image",
-                "pdf"
+                "pdf",
+                "search"
             ],
             "gpt-4o-mini": [
                 "image",
-                "pdf"
+                "pdf",
+                "search"
             ],
             "gpt-4o-mini-2024-07-18": [
                 "image",
-                "pdf"
+                "pdf",
+                "search"
             ],
             "o1-preview": [
                 "image",
@@ -71,6 +94,10 @@
                 "pdf"
             ]
         },
+        "source":"https://platform.openai.com/docs/models",
+        "Support_web_search": [
+            ""
+        ],
         "support_tools": [
             "gpt-3.5-turbo",
             "gpt-3.5-turbo-0125",
@@ -224,20 +251,20 @@
                 "input": 2,
                 "output": 8
             },
+            "gpt-4.1-2025-04-14": {
+                "input": 2,
+                "output": 8
+            },
             "gpt-4.1-mini": {
-                "input": 0.5,
+                "input": 0.4,
                 "output": 1.6
             },
             "gpt-4.1-nano": {
                 "input": 0.1,
                 "output": 0.4
             },
-            "gpt-4.1-2025-04-14": {
-                "input": 2,
-                "output": 8
-            },
             "gpt-4.1-mini-2025-04-14": {
-                "input": 0.5,
+                "input": 0.4,
                 "output": 1.6
             },
             "gpt-4.1-nano-2025-04-14": {
@@ -845,32 +872,18 @@
     },
     "bedrock": {
     "models": [
-      "us.deepseek.r1-v1:0",
-      "us.anthropic.claude-sonnet-4-20250514-v1:0"
+      "us.deepseek.r1-v1:0"
     ],
     "bedrock_api_keys": {
       "aws_access_key_id": "AWS_ACCESS_KEY_ID",
       "aws_secret_access_key": "AWS_SECRET_ACCESS_KEY",
       "aws_region": "AWS_REGION"
     },
-   
     "openrouter_identifier": {
-      "us.deepseek.r1-v1:0": "bedrock/us.deepseek.r1-v1:0",
-      "us.anthropic.claude-sonnet-4-20250514-v1:0": "bedrock/us.anthropic.claude-sonnet-4-20250514-v1:0",  
-    },
-    "price": {
-      "us.deepseek.r1-v1:0": {
-        "input": 1.35,
-        "output": 5.4,
-      },
-       "us.anthropic.claude-sonnet-4-20250514-v1:0": {
-        "input": 3,
-        "output": 15,
-      },
-    },
+      "us.deepseek.r1-v1:0": "bedrock/us.deepseek.r1-v1:0"
+    }, 
     "name": {
-      "us.deepseek.r1-v1:0": "DeepSeek R1 (Bedrock)",
-      "us.anthropic.claude-sonnet-4-20250514-v1:0": "Claude Sonnet 4 (Bedrock)",
+      "us.deepseek.r1-v1:0": "DeepSeek R1 (Bedrock)"
     }
     }
 }
