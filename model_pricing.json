@@ -881,7 +881,7 @@
       "aws_region": "AWS_REGION"
     },
     "openrouter_identifier": {
-      "us.deepseek.r1-v1:0": "bedrock/us.deepseek.r1-v1:0"
+      "us.deepseek.r1-v1:0": "bedrock/us.deepseek.r1-v1:0",
         "us.anthropic.claude-sonnet-4-20250514-v1:0": "bedrock/us.anthropic.claude-sonnet-4-20250514-v1:0"
     }, 
     "name": {
