@@ -872,7 +872,7 @@
     },
     "bedrock": {
     "models": [
-      "us.deepseek.r1-v1:0",
+      "us.deepseek.r1-v1:0"
     ],
     "bedrock_api_keys": {
       "aws_access_key_id": "AWS_ACCESS_KEY_ID",
@@ -880,8 +880,7 @@
       "aws_region": "AWS_REGION"
     },
     "openrouter_identifier": {
-      "us.deepseek.r1-v1:0": "bedrock/us.deepseek.r1-v1:0",
-      
+      "us.deepseek.r1-v1:0": "bedrock/us.deepseek.r1-v1:0"
     }, 
     "name": {
       "us.deepseek.r1-v1:0": "DeepSeek R1 (Bedrock)"
