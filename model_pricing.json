@@ -28,9 +28,6 @@
             "o1-mini-2024-09-12",
             "chatgpt-4o-latest"
         ],
-        "support_web_search":[
-           "gpt-4o-mini",
-        ],
         "api_key": "OPENAI_API_KEY",
         "support_media_inputs": {
             "gpt-4-turbo": [
@@ -492,9 +489,6 @@
             "gemini-2.0-flash",
             "gemini-2.5-flash",
             "gemini-2.5-pro"
-        ],
-        "support_web_search":[
-           "gemini-2.0-flash"
         ],
         "api_key": "GOOGLE_GENERATIVE_AI_API_KEY",
         "support_tools": [
