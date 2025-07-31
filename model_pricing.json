@@ -290,7 +290,7 @@
                 "output": 0.4
             },
             "gpt-image-1": {
-                "input": 5,
+                "input": 10,
                 "output": 40
             }
         },
@@ -535,7 +535,9 @@
             "gemini-1.5-flash-latest",
             "gemini-2.0-flash",
             "gemini-2.5-flash",
-            "gemini-2.5-pro"
+            "gemini-2.5-pro",
+            "imagen-4.0-ultra-generate-preview-06-06",
+            "imagen-4.0-generate-preview-06-06"
         ],
         "api_key": "GOOGLE_GENERATIVE_AI_API_KEY",
         "capabilities": {
@@ -560,6 +562,12 @@
                 "image",
                 "pdf",
                 "search"
+            ],
+            "imagen-4.0-ultra-generate-preview-06-06":[
+                "image-gen"
+            ],
+            "imagen-4.0-generate-preview-06-06": [
+                "image-gen"
             ]
         },
         "support_tools": [
@@ -590,7 +598,9 @@
             "gemini-1.5-flash-latest": "google/gemini-flash-1.5",
             "gemini-2.0-flash": "google/gemini-2.0-flash",
             "gemini-2.5-flash": "google/gemini-2.5-flash",
-            "gemini-2.5-pro": "google/gemini-2.5-pro"
+            "gemini-2.5-pro": "google/gemini-2.5-pro",
+            "imagen-4.0-ultra-generate-preview-06-06": "google/imagen-4.0-ultra-generate-preview-06-06",
+            "imagen-4.0-generate-preview-06-06": "google/imagen-4.0-generate-preview-06-06"
         },
         "price": {
             "gemini-pro": {
@@ -645,7 +655,9 @@
             "gemini-1.5-pro-latest": "Google's previous flagship model",
             "gemini-2.0-flash": "Google's latest stable model",
             "gemini-2.5-flash": "Google's latest fastest model",
-            "gemini-2.5-pro": "Google's newest experimental model"
+            "gemini-2.5-pro": "Google's newest experimental model",
+            "imagen-4.0-generate-preview-06-06": "Imagen 4.0 Image Generation Model",
+            "imagen-4.0-ultra-generate-preview-06-06": "Imagen 4.0 Ultra Image Generation Model"
         }
     },
     "cohere": {
