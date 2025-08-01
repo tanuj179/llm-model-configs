@@ -989,7 +989,10 @@
             "imagen-4.0-ultra-generate-preview-06-06",
             "imagen-3.0-generate-002"
         ],
-        "api_key": "GOOGLE_APPLICATION_CREDENTIALS",
+         "vertex_api_keys": {
+            "client_email": "CLIENT_EMAIL",
+            "private_key": "PRIVATE_KEY",
+        },
         "capabilities": {
             "imagen-4.0-generate-preview-06-06": [
                 "image-gen"
