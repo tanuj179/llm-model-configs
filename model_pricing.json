@@ -990,6 +990,17 @@
             "imagen-3.0-generate-002"
         ],
         "api_key": "GOOGLE_APPLICATION_CREDENTIALS",
+        "capabilities": {
+            "imagen-4.0-generate-preview-06-06": [
+                "image-gen"
+            ],
+            "imagen-4.0-ultra-generate-preview-06-06": [
+                "image-gen"
+            ],
+            "imagen-3.0-generate-002": [
+                "image-gen"
+            ]
+        },
         "openrouter_identifier": {
              "imagen-4.0-generate-preview-06-06":"vertex/imagen-4.0-generate-preview-06-06",
             "imagen-4.0-ultra-generate-preview-06-06":"vertex/imagen-4.0-ultra-generate-preview-06-06",
