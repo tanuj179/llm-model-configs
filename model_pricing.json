@@ -535,9 +535,7 @@
             "gemini-1.5-flash-latest",
             "gemini-2.0-flash",
             "gemini-2.5-flash",
-            "gemini-2.5-pro",
-            "imagen-4.0-ultra-generate-preview-06-06",
-            "imagen-4.0-generate-preview-06-06"
+            "gemini-2.5-pro"
         ],
         "api_key": "GOOGLE_GENERATIVE_AI_API_KEY",
         "capabilities": {
@@ -562,12 +560,6 @@
                 "image",
                 "pdf",
                 "search"
-            ],
-            "imagen-4.0-ultra-generate-preview-06-06":[
-                "image-gen"
-            ],
-            "imagen-4.0-generate-preview-06-06": [
-                "image-gen"
             ]
         },
         "support_tools": [
@@ -598,9 +590,7 @@
             "gemini-1.5-flash-latest": "google/gemini-flash-1.5",
             "gemini-2.0-flash": "google/gemini-2.0-flash",
             "gemini-2.5-flash": "google/gemini-2.5-flash",
-            "gemini-2.5-pro": "google/gemini-2.5-pro",
-            "imagen-4.0-ultra-generate-preview-06-06": "google/imagen-4.0-ultra-generate-preview-06-06",
-            "imagen-4.0-generate-preview-06-06": "google/imagen-4.0-generate-preview-06-06"
+            "gemini-2.5-pro": "google/gemini-2.5-pro"
         },
         "price": {
             "gemini-pro": {
@@ -655,9 +645,7 @@
             "gemini-1.5-pro-latest": "Google's previous flagship model",
             "gemini-2.0-flash": "Google's latest stable model",
             "gemini-2.5-flash": "Google's latest fastest model",
-            "gemini-2.5-pro": "Google's newest experimental model",
-            "imagen-4.0-generate-preview-06-06": "Imagen 4.0 Image Generation Model",
-            "imagen-4.0-ultra-generate-preview-06-06": "Imagen 4.0 Ultra Image Generation Model"
+            "gemini-2.5-pro": "Google's newest experimental model"
         }
     },
     "cohere": {
@@ -994,5 +982,24 @@
         "name": {
             "us.deepseek.r1-v1:0": "DeepSeek R1 (Bedrock)"
         }
-    }
+    },
+    "vertex":{
+         "models": [
+            "imagen-4.0-generate-preview-06-06",
+            "imagen-4.0-ultra-generate-preview-06-06",
+            "imagen-3.0-generate-002"
+        ],
+        "api_key": "GOOGLE_APPLICATION_CREDENTIALS",
+        "openrouter_identifier": {
+             "imagen-4.0-generate-preview-06-06":"vertex/imagen-4.0-generate-preview-06-06",
+            "imagen-4.0-ultra-generate-preview-06-06":"vertex/imagen-4.0-ultra-generate-preview-06-06",
+            "imagen-3.0-generate-002":"vertex/imagen-3.0-generate-002"
+        },
+        "name": {
+            "imagen-4.0-generate-preview-06-06": "Imagen 4.0 Generate Preview",
+            "imagen-4.0-ultra-generate-preview-06-06": "Imagen 4.0 Ultra Generate Preview",
+            "imagen-3.0-generate-002": "Imagen 3.0 Generate"
+        }
+
+    } 
 }
