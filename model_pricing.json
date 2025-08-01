@@ -990,8 +990,8 @@
             "imagen-3.0-generate-002"
         ],
          "vertex_api_keys": {
-            "client_email": "CLIENT_EMAIL",
-            "private_key": "PRIVATE_KEY",
+            "google_client_email": "GOOGLE_CLIENT_EMAIL",
+            "google_private_key": "GOOGLE_PRIVATE_KEY",
         },
         "capabilities": {
             "imagen-4.0-generate-preview-06-06": [
