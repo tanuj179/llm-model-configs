@@ -991,7 +991,7 @@
       "google_client_email": "GOOGLE_CLIENT_EMAIL",
       "google_private_key": "GOOGLE_PRIVATE_KEY",
       "google_project_id": "GOOGLE_PROJECT_ID",
-      "google_location": "GOOGLE_LOCATION"
+      "google_location": "GOOGLE_VERTEX_LOCATION"
     },
     "capabilities": {
       "imagen-4.0-generate-preview-06-06": [
