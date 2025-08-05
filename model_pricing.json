@@ -982,38 +982,6 @@
         "name": {
             "us.deepseek.r1-v1:0": "DeepSeek R1 (Bedrock)"
         }
-    },
-    "vertex":{
-         "models": [
-            "imagen-4.0-generate-preview-06-06",
-            "imagen-4.0-ultra-generate-preview-06-06",
-            "imagen-3.0-generate-002"
-        ],
-         "vertex_api_keys": {
-            "google_client_email": "GOOGLE_CLIENT_EMAIL",
-            "google_private_key": "GOOGLE_PRIVATE_KEY",
-        },
-        "capabilities": {
-            "imagen-4.0-generate-preview-06-06": [
-                "image-gen"
-            ],
-            "imagen-4.0-ultra-generate-preview-06-06": [
-                "image-gen"
-            ],
-            "imagen-3.0-generate-002": [
-                "image-gen"
-            ]
-        },
-        "openrouter_identifier": {
-             "imagen-4.0-generate-preview-06-06":"vertex/imagen-4.0-generate-preview-06-06",
-            "imagen-4.0-ultra-generate-preview-06-06":"vertex/imagen-4.0-ultra-generate-preview-06-06",
-            "imagen-3.0-generate-002":"vertex/imagen-3.0-generate-002"
-        },
-        "name": {
-            "imagen-4.0-generate-preview-06-06": "Imagen 4.0 Generate Preview",
-            "imagen-4.0-ultra-generate-preview-06-06": "Imagen 4.0 Ultra Generate Preview",
-            "imagen-3.0-generate-002": "Imagen 3.0 Generate"
-        }
-
+    }
     } 
 }
