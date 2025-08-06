@@ -988,6 +988,7 @@
       "imagen-4.0-generate-preview-06-06"
     ],
     "vertex_api_keys": {
+      "google_application_credentials": "GOOGLE_APPLICATION_CREDENTIALS",
       "google_client_email": "GOOGLE_CLIENT_EMAIL",
       "google_private_key": "GOOGLE_PRIVATE_KEY",
       "google_project_id": "GOOGLE_VERTEX_PROJECT",
